@@ -16,7 +16,6 @@ This is a simple chatbot project using OpenAI's GPT-3.5-turbo model. The chatbot
 
 1. **Clone the repository:**
    
-bash
    git clone https://github.com/your-username/chatbot.git\
    
    cd simple_chatbot-main
@@ -24,7 +23,6 @@ bash
 
 2. **Create and activate a virtual environment (optional but recommended):**
    
-bash
    python -m venv venv
    
    source venv/bin/activate   # On Windows: venv\Scripts\activate
@@ -32,19 +30,16 @@ bash
 
 3. **Install dependencies:**
    
-bash
-
    pip install openai python-dotenv
   
 
 4. **Create a `.env` file in the root directory and add your OpenAI API key:**
    - Get your API key from [OpenAI API Overview](https://platform.openai.com/docs/overview)
    - Add it to the `.env` file:
-   
-env
 
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   
+
 
 5. **Create a `.gitignore` file to ignore sensitive and unnecessary files.**
 
@@ -54,8 +49,6 @@ env
 
 1. **Run the chatbot:**
    
-bash
-
    python chatbot.py
   
 
