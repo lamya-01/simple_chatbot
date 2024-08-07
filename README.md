@@ -18,6 +18,7 @@ This is a simple chatbot project using OpenAI's GPT-3.5-turbo model. The chatbot
    
 bash
    git clone https://github.com/your-username/chatbot.git\
+   
    cd simple_chatbot-main
   
 
@@ -40,7 +41,7 @@ env
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   
 
-5. **Create a `.gitignore` file to ignore sensitive and unnecessary files:**
+5. **Create a `.gitignore` file to ignore sensitive and unnecessary files.**
 
 
    
