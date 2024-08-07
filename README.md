@@ -36,8 +36,10 @@ bash
   
 
 4. **Create a `.env` file in the root directory and add your OpenAI API key:**
-   
+   - Get your API key from [OpenAI API Overview](https://platform.openai.com/docs/overview)
+   - Add it to the `.env` file:
 env
+
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   
 
@@ -65,3 +67,12 @@ bash
 ## Example
 ![لقطة شاشة 2024-08-07 171210](https://github.com/user-attachments/assets/ec17ce34-59fd-4a13-864a-188d6f029979)
 
+
+
+## IDE Setup (Optional)
+
+If you use Visual Studio Code (VSCode) as your editor, it is recommended to install the Python extension for enhanced development experience:
+
+1. Open VSCode.
+2. Go to the Extensions view by clicking the square icon in the sidebar or pressing `Ctrl+Shift+X`.
+3. Search for "Python" and install the extension provided by Microsoft.
