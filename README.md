@@ -26,18 +26,21 @@ bash
    
 bash
    python -m venv venv
+   
    source venv/bin/activate   # On Windows: venv\Scripts\activate
   
 
 3. **Install dependencies:**
    
 bash
+
    pip install openai python-dotenv
   
 
 4. **Create a `.env` file in the root directory and add your OpenAI API key:**
    - Get your API key from [OpenAI API Overview](https://platform.openai.com/docs/overview)
    - Add it to the `.env` file:
+   
 env
 
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -52,6 +55,7 @@ env
 1. **Run the chatbot:**
    
 bash
+
    python chatbot.py
   
 
