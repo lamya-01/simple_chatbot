@@ -1,0 +1,19 @@
+# Ignore .env file to keep API keys and other sensitive information secret
+.env
+
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE/editor specific
+.idea/
+.vscode/
